@@ -1,6 +1,9 @@
 package pointers
 
-import "curso_basico_go/modules/functions"
+import (
+	"curso_basico_go/modules/functions"
+	"fmt"
+)
 
 type pc struct {
 	ram   int
@@ -14,6 +17,10 @@ func (myPc pc) ping() {
 
 func (myPc *pc) duplicateRAM() {
 	myPc.ram *= 2
+}
+
+func (myPc pc) String() string {
+	return fmt.Sprintf("Tengo %d GB de RAM, %d GB Disco y soy un %s", myPc.ram, myPc.disk, myPc.brand)
 }
 
 func Pointers() {
