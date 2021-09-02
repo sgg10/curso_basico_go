@@ -9,6 +9,7 @@ import (
 	//"curso_basico_go/modules/arrays"
 	//"curso_basico_go/modules/maps"
 	//"curso_basico_go/modules/structures"
+	"curso_basico_go/modules/pointers"
 )
 
 func main() {
@@ -24,4 +25,5 @@ func main() {
 	// car := structures.PublicCar{Brand: "Ferrari", Year: 2020}
 	// functions.MyPrint(car)
 	// structures.MyStructures()
+	pointers.Pointers()
 }
