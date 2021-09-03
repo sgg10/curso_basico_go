@@ -2,7 +2,6 @@ package main
 
 import (
 	"curso_basico_go/modules/functions"
-	"curso_basico_go/modules/interfaces"
 	//"curso_basico_go/modules/loops"
 	//"curso_basico_go/modules/conditions"
 	//"curso_basico_go/modules/switchCondition"
@@ -11,6 +10,8 @@ import (
 	//"curso_basico_go/modules/maps"
 	//"curso_basico_go/modules/structures"
 	//"curso_basico_go/modules/pointers"
+	//"curso_basico_go/modules/interfaces"
+	"curso_basico_go/modules/goroutines"
 )
 
 func main() {
@@ -27,5 +28,6 @@ func main() {
 	// functions.MyPrint(car)
 	// structures.MyStructures()
 	//pointers.Pointers()
-	interfaces.MyInterfaces()
+	//interfaces.MyInterfaces()
+	goroutines.GoRoutines()
 }
