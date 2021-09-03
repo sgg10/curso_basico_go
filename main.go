@@ -11,7 +11,8 @@ import (
 	//"curso_basico_go/modules/structures"
 	//"curso_basico_go/modules/pointers"
 	//"curso_basico_go/modules/interfaces"
-	"curso_basico_go/modules/goroutines"
+	//"curso_basico_go/modules/goroutines"
+	"curso_basico_go/modules/chanels"
 )
 
 func main() {
@@ -29,5 +30,6 @@ func main() {
 	// structures.MyStructures()
 	//pointers.Pointers()
 	//interfaces.MyInterfaces()
-	goroutines.GoRoutines()
+	//goroutines.GoRoutines()
+	chanels.Chanels()
 }
